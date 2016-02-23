@@ -1,7 +1,7 @@
 # Elevens-Lab
 This is the completed code for the College Board's AP Java lab "Elevens". Elevens is a card game in which 9 cards from a 52 card deck are dealt at random. The object of the game is to select two cards that add up to 11 or a set of three cards containing a jack, queen, and king.
 
-Each branch contains one of the activities of the lab:
+Each folder contains one of the activities of the lab:
 - Activity 1: Card class.
 - Activity 2: Deck class, which contains Card objects.
 - Activity 3: Shuffler class, which has methods to shuffle the deck.
