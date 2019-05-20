@@ -51,9 +51,16 @@ public class Deck {
    * @return the card just dealt, or null if all the cards have been
    *         previously dealt.
    */
+
   public Card deal() {
-    /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+    if (isEmpty())
+      return null;
+    else {
+      size--;
+      return cards.get(size);
+    }
   }
+  
   
   /**
    * Generates and returns a string representation of this deck.
