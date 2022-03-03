@@ -21,7 +21,7 @@ public class Deck {
    * @param values is an array containing all of the card point values.
    */
   public Deck(String[] ranks, String[] suits, int[] values) {
-    for(int i = 0; i < ranks.length(); i++){
+    for(int i = 0; i < ranks.length; i++){
       Card card = new Card(ranks[i], suits[i], values[i]);    //Creates new card by matching the params.
       cards[i] = card;
     }
